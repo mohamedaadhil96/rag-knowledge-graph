@@ -67,9 +67,6 @@ Open and run the Jupyter notebook:
 jupyter notebook RAG_Knowledge_Graph_Neo4j.ipynb
 ```
 
-Or use it in Google Colab:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yourusername/rag-knowledge-graph-neo4j/blob/main/RAG_Knowledge_Graph_Neo4j.ipynb)
-
 ## 📖 Example Queries
 
 ```python
@@ -94,12 +91,6 @@ A: "Elizabeth I's parents were Henry VIII and Anne Boleyn.
 1. Create a free Neo4j AuraDB instance at [neo4j.com/cloud/aura](https://neo4j.com/cloud/aura/)
 2. Note your connection URI, username, and password
 3. Add these credentials to your `config.py` file
-
-### Groq API Setup
-
-1. Sign up at [console.groq.com](https://console.groq.com/)
-2. Generate an API key
-3. Add the key to your `config.py` file
 
 ## 🎯 Key Components
 
@@ -165,39 +156,5 @@ Add domain-specific relationship types in the graph transformer.
 - **Embeddings**: HuggingFace (sentence-transformers)
 - **Visualization**: yFiles Jupyter Graphs
 
-## 📚 Resources
-
-- [LangChain Documentation](https://python.langchain.com/)
-- [Neo4j Graph Database](https://neo4j.com/docs/)
-- [Groq API Reference](https://console.groq.com/docs)
-- [RAG Best Practices](https://www.pinecone.io/learn/retrieval-augmented-generation/)
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Built with [LangChain](https://github.com/langchain-ai/langchain)
-- Powered by [Groq](https://groq.com/)
-- Data storage by [Neo4j](https://neo4j.com/)
-
-## 📧 Contact
-
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
-
-Project Link: [https://github.com/yourusername/rag-knowledge-graph-neo4j](https://github.com/yourusername/rag-knowledge-graph-neo4j)
-
----
 
 ⭐ Star this repo if you find it helpful!
